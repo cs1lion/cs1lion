@@ -1,23 +1,68 @@
-### Hi, I'm cs1lion — AI Agent & Systems Engineer
-
-> **Engineering Philosophy**: Constrain non-deterministic model generation within deterministic harnesses, verifiable schemas, and replayable state machines.
-
-### Core Focus
-- **Agent Harness & Orchestration**: Fast/Slow dual-loop routing (`System 1 / System 2`), ReAct runtime (`think / act / step`), `Pi` / MCP / dynamic `SKILL.md` ecosystems, and Human-in-the-loop cost/safety gates.
-- **Context Engineering & Evaluation**: Sliding-window & vector chunk compression, confidence-tiered memory (`SQLite` n-gram TF-IDF & Embeddings), `Podman` container code sandboxes, and `GAIA` / L1-L2 regression harnesses.
-- **Deterministic Engines & Distributed Systems**: Frame-accurate deterministic simulation (`Phaser 3` + `FastAPI`), AST static analysis (`Rust` + `GPUI`), and distributed consensus storage (`Raft` + `Percolator MVCC`).
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+    <img alt="cs1lion — AI Agent &amp; Systems Engineer" src="./assets/hero-dark.svg" width="100%">
+  </picture>
+</p>
 
 ### Featured Systems
 
-| Project | Tech Stack | Architecture Highlights |
-| --- | --- | --- |
-| [xiaoxi](/cs1lion/xiaoxi) | `Python`, `FastAPI`, `SQLite`, `MCP` | Dual-system personal voice agent with System 1/2 fast-slow async orchestration, confidence-tiered memory & telemetry circuit-breakers |
-| [rust-ai-agent](/cs1lion/rust-ai-agent) | `Rust`, `Podman`, `SQLite`, `MCP` | High-performance ReAct runtime featuring `before_llm` / `after_tool` context compression, container sandbox & GAIA evaluation harness |
-| [pixel-world-engine](/cs1lion/pixel-world-engine) | `TypeScript`, `Phaser 3`, `FastAPI` | Decoupled autonomous world simulation with schema-whitelisted agent commands, append-only event sourcing & 240+ test gates |
-| [video-agent](/cs1lion/video-agent) | `TypeScript`, `Node.js`, `Pi`, `FFmpeg` | 7-stage Director Agent video production pipeline driven by verifiable `SceneScript` contracts, 4 cost gates & QA auto-repair loop |
-| [strata-arch](/cs1lion/strata-arch) | `Rust`, `GPUI` | Local-first TypeScript/JavaScript AST static analyzer, call-graph builder & architecture evolution explorer |
-| [mytinykv](/cs1lion/mytinykv) | `Go` | Distributed Key-Value storage engine implementing Raft consensus, Multi-Raft region split & Percolator-style MVCC transactions |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="/cs1lion/xiaoxi">xiaoxi</a></strong> &nbsp;<code>Python</code> <code>FastAPI</code> <code>MCP</code><br/><br/>
+      Non-blocking System 1/2 personal voice agent — async multi-agent offload, 3-tier confidence memory, 3x loop circuit-breakers &amp; L1/L2 deterministic eval.
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="/cs1lion/rust-ai-agent">rust-ai-agent</a></strong> &nbsp;<code>Rust</code> <code>Podman</code> <code>MCP</code><br/><br/>
+      High-performance Rust ReAct runtime — <code>before_llm</code> / <code>after_tool</code> context compression, Podman container sandbox &amp; GAIA eval harness.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="/cs1lion/pixel-world-engine">pixel-world-engine</a></strong> &nbsp;<code>TypeScript</code> <code>Phaser 4</code> <code>FastAPI</code><br/><br/>
+      Runs 100% offline without an LLM — fixed-timestep Phaser 4 world engine where models only propose schema-whitelisted commands (240+ test gates).
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="/cs1lion/rag-forge">rag-forge</a></strong> &nbsp;<code>Python</code> <code>React</code> <code>Remotion</code><br/><br/>
+      Citation-enforced RAG &amp; automated Q&amp;A video workbench — local BM25/TF-IDF hybrid retrieval, dual prompt-injection defense &amp; crash-recoverable FIFO video queue.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="/cs1lion/video-agent">video-agent</a></strong> &nbsp;<code>TypeScript</code> <code>Node.js</code> <code>FFmpeg</code><br/><br/>
+      Dialogue-driven 7-stage Director Agent video pipeline — 4 HITL cost gates to cap GPU/API burn, deterministic FFmpeg synthesis &amp; QA auto-repair loop.
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="/cs1lion/strata-arch">strata-arch</a></strong> &nbsp;<code>Rust</code> <code>GPUI</code> <code>AST</code><br/><br/>
+      Local-first TS/JS static architecture analyzer in Rust + GPUI — layered dependency map, commit timeline, structural diff &amp; call-path replay.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="/cs1lion/AdCraft">AdCraft</a></strong> <em>(Fork)</em> &nbsp;<code>Python</code> <code>Three.js</code> <code>TS</code><br/><br/>
+      3D pre-visualization director workbench fork featuring verifiable SceneScript contracts, headless Three.js rendering &amp; multi-track timeline.
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="/cs1lion/mytinykv">mytinykv</a></strong> &nbsp;<code>Go</code> <code>Raft</code> <code>MVCC</code><br/><br/>
+      Distributed Key-Value storage engine implementing Raft consensus, Multi-Raft region split &amp; Percolator-style MVCC transactions.
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>Architecture &amp; Engineering Invariants (Click to expand)</strong></summary>
+
+<br/>
+
+- **Control Plane**: System 1/2 fast-slow dual-loop routing (`xiaoxi`), schema-whitelisted commands (`pixel-world-engine`), Pi / MCP / dynamic `SKILL.md` ecosystems, and 4 HITL cost gates (`video-agent`).
+- **Reliability Plane**: 3x loop-signature circuit breakers, L1/L2 deterministic eval loop, dual prompt-injection defense (XML isolation + System Prompt rules in `rag-forge`), and 240+ automated test gates.
+- **Runtime Plane**: Offline-capable fixed-timestep simulation (`Phaser 4` + `FastAPI`), local-first AST + `GPUI` desktop analyzer (`strata-arch`), Podman container sandboxes (`rust-ai-agent`), and Raft + Percolator MVCC (`mytinykv`).
+
+</details>
 
 ### Tech Stack
-- **Languages & Runtimes**: `Python` (`FastAPI`, `asyncio`) · `Rust` (`Tokio`, `GPUI`) · `TypeScript` (`React`, `Node.js`, `Phaser 3`) · `Go` · `C#` (`.NET / WPF`)
-- **Storage & Infra**: `SQLite` · `PostgreSQL` · `Podman / Docker` · `FFmpeg` · `Git / CI Gates`
+
+- **Languages**: `Python` · `Rust` · `TypeScript` · `Go` · `C# (.NET)`
+- **Engines & Infra**: `FastAPI` · `React` · `Phaser 4` · `Remotion` · `GPUI` · `SQLite` · `PostgreSQL` · `Podman` · `Docker` · `FFmpeg`
