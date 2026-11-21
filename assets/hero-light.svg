@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 336" width="840" height="336" role="img" aria-label="cs1lion — AI Agent &amp; Systems Engineer (Pixel-Terminal Telemetry Light)">
+  <defs>
+    <pattern id="dot-grid-light" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="2" height="2" fill="#CBD5E1" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="840" height="336" rx="8" fill="#FFFFFF"/>
+  <rect x="0" y="34" width="840" height="302" rx="8" fill="url(#dot-grid-light)"/>
+  <rect x="1" y="1" width="838" height="334" rx="7" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+  <g shape-rendering="crispEdges">
+    <rect x="1" y="1" width="838" height="4" fill="#F6F8FA"/>
+    <rect x="24" y="1" width="128" height="4" fill="#0F766E"/>
+    <rect x="160" y="1" width="76" height="4" fill="#1D4ED8"/>
+    <rect x="244" y="1" width="36" height="4" fill="#B45309"/>
+  </g>
+  <rect x="1" y="5" width="838" height="30" fill="#F6F8FA"/>
+  <line x1="1" y1="35" x2="839" y2="35" stroke="#D0D7DE" stroke-width="1"/>
+  <g shape-rendering="crispEdges">
+    <rect x="18" y="15" width="9" height="9" fill="#CBD5E1"/>
+    <rect x="33" y="15" width="9" height="9" fill="#CBD5E1"/>
+    <rect x="48" y="15" width="9" height="9" fill="#0F766E"/>
+  </g>
+  <text x="420" y="24" text-anchor="middle" fill="#475569" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12">cs1lion@systems — zsh — --inspect --public-only</text>
+  <g shape-rendering="crispEdges">
+    <rect x="28" y="52" width="10" height="10" fill="#0F766E"/>
+    <rect x="40" y="52" width="10" height="10" fill="#1D4ED8"/>
+    <rect x="28" y="64" width="10" height="10" fill="#1D4ED8"/>
+    <rect x="40" y="64" width="10" height="10" fill="#E2E8F0"/>
+    <rect x="52" y="64" width="10" height="10" fill="#B45309"/>
+    <rect x="28" y="76" width="10" height="10" fill="#E2E8F0"/>
+    <rect x="40" y="76" width="10" height="10" fill="#0F766E"/>
+  </g>
+  <text x="78" y="68" fill="#1D4ED8" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="700">$</text>
+  <text x="95" y="68" fill="#0F172A" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="700">cs1lion --inspect</text>
+  <text x="78" y="88" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">AI Agent &amp; Systems Engineer · Constrain non-deterministic models inside deterministic harnesses.</text>
+  <line x1="28" y1="104" x2="812" y2="104" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="28" y="128" fill="#475569" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" font-weight="600">HARNESS</text>
+  <text x="122" y="128" fill="#0F172A" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5">xiaoxi · rust-ai-agent · rag-forge · video-agent</text>
+  <text x="28" y="152" fill="#475569" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" font-weight="600">ENGINES</text>
+  <text x="122" y="152" fill="#0F172A" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5">pixel-world-engine (Phaser 4) · strata-arch (GPUI) · mytinykv (Raft)</text>
+  <text x="28" y="176" fill="#475569" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" font-weight="600">GUARDS</text>
+  <text x="122" y="176" fill="#0F766E" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" font-weight="600">240+ test gates · 4 HITL cost gates · L1/L2 eval loop · dual prompt-injection defense</text>
+  <g shape-rendering="crispEdges">
+    <rect x="28" y="198" width="174" height="42" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
+    <rect x="226" y="198" width="174" height="42" fill="#EFF6FF" stroke="#1D4ED8" stroke-width="2"/>
+    <rect x="424" y="198" width="174" height="42" fill="#ECFDF5" stroke="#0F766E" stroke-width="2"/>
+    <rect x="622" y="198" width="190" height="42" fill="#FFFBEB" stroke="#B45309" stroke-width="2"/>
+    <rect x="208" y="216" width="12" height="6" fill="#64748B"/>
+    <rect x="406" y="216" width="12" height="6" fill="#1D4ED8"/>
+    <rect x="604" y="216" width="12" height="6" fill="#0F766E"/>
+  </g>
+  <text x="115" y="224" text-anchor="middle" fill="#1E293B" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700">01 · PROPOSE</text>
+  <text x="313" y="224" text-anchor="middle" fill="#1E3A8A" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700">02 · PLAN</text>
+  <text x="511" y="224" text-anchor="middle" fill="#115E59" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700">03 · GATE</text>
+  <text x="717" y="224" text-anchor="middle" fill="#92400E" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700">04 · COMMIT</text>
+  <line x1="28" y1="260" x2="812" y2="260" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="28" y="280" fill="#475569" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" font-weight="600">PRIMARY STACK MIX (PINNED PUBLIC SYSTEMS)</text>
+  <g shape-rendering="crispEdges">
+    <rect x="28" y="290" width="268" height="8" fill="#1D4ED8"/>
+    <rect x="300" y="290" width="244" height="8" fill="#C2410C"/>
+    <rect x="548" y="290" width="204" height="8" fill="#6D28D9"/>
+    <rect x="756" y="290" width="56" height="8" fill="#0F766E"/>
+  </g>
+  <text x="28" y="316" fill="#1E3A8A" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="600">Python (FastAPI / MCP)</text>
+  <text x="300" y="316" fill="#9A3412" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="600">Rust (GPUI / Podman)</text>
+  <text x="548" y="316" fill="#5B21B6" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="600">TypeScript (Phaser 4)</text>
+  <text x="756" y="316" fill="#115E59" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="600">Go</text>
+</svg>
